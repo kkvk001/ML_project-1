@@ -31,8 +31,8 @@ def get_requirements_list() -> List[str]:
 setup(
 name=PROJECT_NAME,
 version=VERSION,
+
 author=AUTHOR,
 description=DESRCIPTION,
 packages=find_packages(), 
-install_requires=get_requirements_list()
-)
+install_requires=get_requirements_list())

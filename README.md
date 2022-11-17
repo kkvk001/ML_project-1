@@ -54,7 +54,7 @@ git remote -v
 To setup CI/CD pipeline in heroku we need 3 information
 
 1. HEROKU_EMAIL = kkiit786@gmail.com
-2. HEROKU_API_KEY = bf7fba86-2187-49ca-8f34-10e3e9926b81
+2. HEROKU_API_KEY = <>
 3. HEROKU_APP_NAME = m-l-regression-app
 
 BUILD DOCKER IMAGE
@@ -82,6 +82,9 @@ Tos stop docker conatiner
 ```
 docker stop <container_id>
 '''
+
+'''
+python setup.py install
 
 
 
